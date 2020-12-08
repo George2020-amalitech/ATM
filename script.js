@@ -120,7 +120,7 @@ let amounts=document.getElementById('amounts');
  ref.style.display="none";
  amounts.style.display="none";
  firstText.innerHTML="Ballance Inquiry";
- secondText.innerHTML="Your Total Ballance is $"+totalAmount;
+ secondText.innerHTML="Your Total Ballance is ₵"+totalAmount;
 
  }
  transferBtn.onclick=transferMoney;
