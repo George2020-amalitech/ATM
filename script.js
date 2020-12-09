@@ -1,8 +1,8 @@
-let totalAmount=20000;
+ let totalAmount=3000;
 
  let withdarawalBtn=document.getElementById('withdarawal');
  let billPay=document.getElementById('billPay');
- let ballanceInquiryBtn=document.getElementById('ballanceInquiry');
+ let balanceInquiryBtn=document.getElementById('balanceInquiry');
  let ref=document.getElementById('ref');
  let btnReff=document.getElementById('btnReff');
 
@@ -10,11 +10,11 @@ let totalAmount=20000;
  let depositBtn=document.getElementById('deposit');
  let otherTransaction=document.getElementById('otherTransaction');
  let firstText=document.getElementById('firstText');
-let firstText2=document.getElementById('firstText2');
+ let firstText2=document.getElementById('firstText2');
  let Exit=document.getElementById('Exit');
-let btnOK=document.getElementById('btnOK');
-let btnOK2=document.getElementById('btnOK2');
-let amounts=document.getElementById('amounts');
+ let btnOK=document.getElementById('btnOK');
+ let btnOK2=document.getElementById('btnOK2');
+ let amounts=document.getElementById('amounts');
  let secondText=document.getElementById('secondText');
  let secondText2=document.getElementById('secondText2');
  let amount=document.getElementById('amount');
@@ -26,7 +26,7 @@ let amounts=document.getElementById('amounts');
  let lin2=document.getElementById('lin2');
  let transactions=document.getElementById('transactions');
  let btnsSecreen=document.getElementById('btnsSecreen');
-    let pin1=document.getElementById('pin1').value;
+ let pin1=document.getElementById('pin1').value;
  let btnEnter=document.getElementById('btnEnter');
  let pas=document.getElementById('pas');
  let num=document.getElementById('num');
@@ -53,7 +53,7 @@ let amounts=document.getElementById('amounts');
  back.innerHTML="Back to main secreen";}
  else{
  secondText.innerHTML="You have't enough credit";
- amount.innerHTML="Your total ballance is ₵"+totalAmount;
+ amount.innerHTML="Your total balance is ₵"+totalAmount;
  back.innerHTML="Back to main secreen";}
 
  }
@@ -66,7 +66,7 @@ let amounts=document.getElementById('amounts');
  back.innerHTML="Back to main secreen";}
  else{
  secondText2.innerHTML="You have't enough credit";
- amount2.innerHTML="Your total ballance is ₵"+totalAmount;
+ amount2.innerHTML="Your total balance is ₵"+totalAmount;
  back.innerHTML="Back to main secreen";}
 
  }
@@ -112,15 +112,15 @@ let amounts=document.getElementById('amounts');
 
 
 
- ballanceInquiry.onclick=billInquiry;
+ balanceInquiry.onclick=billInquiry;
  function billInquiry(){
  btnsSecreen.style.display="none";
  billPayDiv.style.display="none";
  transactions.style.display="block";
  ref.style.display="none";
  amounts.style.display="none";
- firstText.innerHTML="Ballance Inquiry";
- secondText.innerHTML="Your Total Ballance is ₵"+totalAmount;
+ firstText.innerHTML="Balance Inquiry";
+ secondText.innerHTML="Your Total Balance is ₵"+totalAmount;
 
  }
  transferBtn.onclick=transferMoney;
@@ -141,7 +141,7 @@ let amounts=document.getElementById('amounts');
  btnOK.onclick=function(){
   let pin1=document.getElementById('pin1').value;
   secondText.innerHTML="Succesfully Added ₵"+pin1;
-  amount.innerHTML="Your new ballance is ₵"+(totalAmount+Number(pin1));
+  amount.innerHTML="Your new balance is ₵"+(totalAmount+Number(pin1));
 
 
  }
@@ -150,12 +150,11 @@ let amounts=document.getElementById('amounts');
  Exit.onclick=exit;
  function exit(){
  transactions.style.display="none";
- billPayDiv.style.display="none";
  btnsSecreen.style.display="none";
  pas.style.display="block";
  pinDiv.style.display="none";
- pinHeading.innerHTML="Thankx for chosing us :)";
- pinMsg.innerHTML="We don't compromise on client safety !";
+ pinHeading.innerHTML="Thank you for chosing us :)";
+ pinMsg.innerHTML="See you here soon!";
 
  }
 
