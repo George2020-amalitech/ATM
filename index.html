@@ -1,22 +1,25 @@
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
  <meta charset="utf/8"/>
  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
  <link rel="stylesheet" href="style.css" type="text/css"/>
-<link rel="stylesheet" href="fontawesome-free-5.11.2-web (1)\fontawesome-free-5.11.2-web\css\all.css" type="text/css"/>
 
+ 
  <title>Virtual ATM</title>
 </head>
  <div class="main-container">
   <div>
-   <div class="name"><h1 class="name-b" id=>Welcome To The Virtual ATM</h1></div>
+   <div class="name"><h1 class="name-b" id=>Welcome to the Virtual ATM</h1></div>
    <div class="main">
-
+    
     <div class="pas" id="pas" style="display:block">
-    <div><h3 class="heading head1" id="pinHeading">Please Enter Your Pin(1234)</h3></div>
+    <div><h1 class="heading head1" id="pinHeading">Please Enter Your Pin</h1></div>
     <div id="pinDiv" style="display:;">
-    <input type="password" id="pin1" placeholder="Pin Here" class="pin" maxlength="4"/>
+    <input type="password" id="pin1" placeholder="" class="pin" maxlength="4"/>
     <button class="btnOK" id="btnEnter">Enter</button>
     </div>
     <div class="trans"><h3 id="pinMsg" class="heading head1" style="color:red"></h3></div>
@@ -25,32 +28,33 @@
      <div><h1 class="heading">Please Select Your Desired Transactions</h1></div>
     <div class="buttons-left">
       <button class="btn" id="withdarawal"><h1 class="btn-text">Cash Withdrawal</h1></button>
-      <button class="btn" id="billPay"><h1 class="btn-text">Bill Payment</h1></button>
-      <button class="btn" id="balanceInquiry"><h1 class="btn-text">Balance Inquiry</h1></button>
+	  <a href="form.html"><button class="btn" id="register"><h1 class="btn-text">Register</h1></button></a>
+	  <button class="btn" id="contact"><h1 class="btn-text">Contacts</h1></button>
 
+      
      </div>
      <div class="buttons-right">
-      <button class="btn" id="transfer"><h1 class="btn-text">Transfer</h1></button>
-      <button class="btn" id="deposit"><h1 class="btn-text">Deposit</h1></button>
+      <button class="btn" id="ballanceInquiry"><h1 class="btn-text">Balance Inquiry</h1></button>
+      <button class="btn" id="location"><h1 class="btn-text">ATM Locations</h1></button>
       <button class="btn" id="Exit"><h1 class="btn-text">Exit</h1></button>
-
-
+       
+      
      </div>
     </div>
     <div class="transcations" id="transactions" style="display:none">
-
+     
      <div class="trans"><h1 id="firstText" class="heading head1"></h1></div>
-
+     
      <div id="amounts" style="display:">
      <input id="amountIn" type="number"  placeholder="" class="pin" />
-     <button class="btnOK" id="btnOK"><span id="num">₵</span></button>
+     <button class="btnOK" id="btnOK"><span id="num">Enter</span></button>
      </div>
      <div class="trans"><h3 id="secondText" class="heading head1"></h3></div>
      <div class="trans"><h3 class="heading head1" id="amount"></span></h3></div>
      <div class="trans"><a id="lin1" href="#"><h3 class="heading head1" id="back">Back to main secreen</h3></a></div>
     </div>
     <div class="transcations" id="billPayDiv" style="display:none">
-
+     
      <div class="trans"><h1 id="firstText2" class="heading head1"></h1></div>
      <div id="ref" style="display:block">
      <input id="reffIn" type="number"  placeholder="" class="pin" />
@@ -58,17 +62,22 @@
      </div>
      <div id="billIn" style="display:none">
      <input id="amountIn2" type="number"  placeholder="" class="pin" />
-     <button class="btnOK" id="btnOK2"><span id="num">₵</span></button>
+     <button class="btnOK" id="btnOK2"><span id="num">Enter</span></button>
      </div>
      <div class="trans"><h3 id="secondText2" class="heading head1"></h3></div>
      <div class="trans"><h3 class="heading head1" id="amount2"></span></h3></div>
      <div class="trans"><a id="lin2" href="#"><h3 class="heading head1" id="back">Back to main secreen</h3></a></div>
+	 <button class="btn" id="Exit"><h1 class="btn-text">Exit</h1></button>
     </div>
-
-
+    
+    
    </div>
-    </div>
- </div>
-<script src="script.js" charset="utf-8"></script>
+  </div>
+ 
+ 
+ <script src=sc.js></script>
+ 
+ 
 </body>
 </html>
+
